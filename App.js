@@ -34,11 +34,6 @@ const App: () => React$Node = () => {
           style={styles.scrollView}>
           <Header />
           <Text style={styles.footer}>Welcome to android app</Text>
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
-              <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
