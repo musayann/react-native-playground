@@ -33,6 +33,7 @@ const App: () => React$Node = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
+          <Text style={styles.footer}>Welcome to android app</Text>
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
